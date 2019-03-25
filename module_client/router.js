@@ -3,7 +3,7 @@ var express = require('express');
 var auth = require('../../middleware/authMiddleware');
 var router = express.Router();
 
-
+var router = express.Router();
 /**
  * @api {post} /login
  * Client Login
